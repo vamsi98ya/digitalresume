@@ -18,6 +18,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReferenceComponent } from './reference/reference.component';
+import {AchievementsComponent} from './achievements/achievements.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import { ReferenceComponent } from './reference/reference.component';
     CertificationComponent,
     ContactComponent,
     ProjectsComponent,
-    ReferenceComponent
+    ReferenceComponent,
+    AchievementsComponent
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
